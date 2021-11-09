@@ -1,0 +1,103 @@
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  background-color: #ffffff;
+}
+#background_signUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 27%;
+  height: 100%;
+  background-color: #fac1a7;
+}
+.container {
+  position: absolute;
+  top: 45%;
+  left: 63%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  margin-bottom: 50px;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+.email {
+  margin-bottom: 10px;
+}
+.password {
+  margin-bottom: 10px;
+}
+input[type="name"]:hover {
+  border: #ffdd00 solid 3px;
+  background-color: #ffffff;
+}
+
+input[type="name"] {
+  width: 280px;
+  height: 35px;
+  background-color: #f5f5f5;
+  border-style: none;
+  border-radius: 8px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+input[type="email"]:hover {
+  border: #ffdd00 solid 3px;
+  background-color: #ffffff;
+}
+input[type="email"] {
+  width: 280px;
+  height: 35px;
+  background-color: #f5f5f5;
+  border-style: none;
+  border-radius: 8px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+input[type="password"]:hover {
+  border: #ffdd00 solid 3px;
+  background-color: #ffffff;
+}
+input[type="password"] {
+  width: 280px;
+  height: 35px;
+  background-color: #f5f5f5;
+  border-style: none;
+  border-radius: 8px;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.create {
+  background-color: #f26623;
+  width: 200px;
+  height: 35px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 5px;
+}
+#createAccount {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 19px;
+}
+.container .horizontal {
+  width: 150%;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  line-height: 0.2em;
+  margin: 10px 0 20px;
+}
+
+.container .horizontal span {
+  background: #fff;
+  padding: 0 20px;
+  color: grey;
+}

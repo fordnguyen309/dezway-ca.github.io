@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 20px;
+  font-family: "Catamaran", sans-serif;
+}
+/* Main styling */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  background-color: #ffffff;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+p {
+  margin: 10px 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 100%;
+  overflow: auto;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+#navbar {
+  overflow: auto;
+}
+#navbar .container_nav {
+  display: flex;
+  justify-content: space-between;
+}
+#navbar .flex_container {
+  display: flex;
+}
+#navbar .container_nav .navigation {
+  font-size: 23px;
+  font-weight: 450;
+}
+#navbar .wrapper {
+  margin-right: 10px;
+  padding: 4px 14px;
+  font-size: 28px;
+}
+
+#navbar .wrapper:last-child {
+  margin-right: 0;
+}
+
+#sign_up {
+  border-radius: 5px;
+  background-color: #ffdd00;
+  cursor: pointer;
+}
+#navbar .container_nav .wrapper:hover {
+  transform: scale(1.1);
+}
+
+#info_content {
+  font-size: 35px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10%;
+  line-height: 1.3em;
+}
+header .decide_content {
+  margin-top: 10%;
+}
+
+#decide_link {
+  font-size: 19px;
+
+  margin-left: 10%;
+  background-color: #ffdd00;
+  background-clip: content-box;
+  border: 3px solid #ffdd00;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+#decide_link span {
+  padding: 3px 15px;
+}
+#main_left {
+  float: left;
+  margin-top: 10%;
+  margin-left: 6%;
+  margin-bottom: 10%;
+  width: 450px;
+}
+#info_img {
+  margin-top: 2%;
+  margin-right: 8%;
+  width: 450px;
+  height: 550px;
+  float: right;
+  object-fit: contain;
+  filter: contrast(100%);
+}
+#logo_Dezway {
+  margin-left: 10%;
+  filter: contrast(200%);
+}
+#final_logo {
+  margin-top: 5px;
+  margin-right: 50px;
+  margin-left: 50px;
+  filter: contrast(200%);
+}
+#navbar {
+  box-shadow: 0 10px 10px #b2b2b2;
+}
+#nav_right {
+  padding-right: 50px;
+}
+article .article_content {
+  text-align: center;
+  padding: 40px;
+  background-color: #f4f2f4;
+}
+
+article .article_content p {
+  font-size: 30px;
+}
+article .article_content .primary_text {
+  font-size: 30px;
+  font-weight: 700;
+}
+article .article_content .primary_number {
+  font-size: 30px;
+  font-style: italic;
+}
+section p {
+  font-size: 27px;
+  padding: 6% 10%;
+  float: left;
+}
+
+.wrapper {
+  padding-top: 6%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 11%;
+}
+.search_box {
+  background: white;
+  position: relative;
+  padding: 4px;
+  border: #b4b4b4 2px solid;
+  border-radius: 20px;
+  display: flex;
+}
+.search_box .search_btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b4b4b4;
+  cursor: pointer;
+}
+.search_box .input_search {
+  outline: none;
+  border: 0;
+  background: white;
+  border-radius: 50px;
+  padding: 15px 20px;
+  width: 300px;
+  height: 40px;
+}
+::placeholder {
+  color: #fff;
+}
+::-webkit-input-placeholder {
+  color: #b4b4b4;
+  /* font-family: "Montserrat", sans-serif; */
+}
+:-ms-input-placeholder {
+  color: #fff;
+}
+section .clr {
+  clear: both;
+}
+aside .destinations .primary_text2 {
+  font-weight: 700;
+  font-size: 23px;
+}
+aside .far {
+  color: black;
+  font-size: 50px;
+}
+aside .wrapper_all_top {
+  display: flex;
+  justify-content: center;
+}
+aside .wrapper_places {
+  width: 200px;
+  height: 220px;
+  border: #e7e7e7 2px solid;
+  border-radius: 15px;
+  box-shadow: 10px 35px 50px #d9dad9;
+  margin-right: 80px;
+}
+aside .wrapper_places:last-child {
+  margin-right: 0;
+}
+aside .places {
+  padding-top: 15px;
+}
+aside .destinations {
+  border: #fce336 3px solid;
+  border-radius: 20px;
+  margin: 10%;
+}
+aside .destinations p {
+  text-align: center;
+  font-size: 23px;
+}
+aside .airplane {
+  text-align: center;
+}
+aside .wrapper_all_bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+footer {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#draft {
+  font-size: 27px;
+  background-color: #ffdd00;
+  background-clip: content-box;
+  border: 3px solid #ffdd00;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-align: center;
+}
+#draft span {
+  padding: 3px 20px;
+  font-size: 25px;
+}
